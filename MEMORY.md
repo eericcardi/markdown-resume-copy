@@ -2,36 +2,29 @@
 
 This file stores context and memory for AI assistants working on this project.
 
-## About Derek Hildreth
+## About Emily Riccardi
 
-Derek is a Senior Software Engineer based in Belgrade, Montana, actively job searching for Staff+ level positions at mission-driven companies. He was recently demoted from Principal due to organizational restructuring, not performance. He has 10+ years of backend engineering experience with deep expertise in PHP/Laravel and production experience in TypeScript, Node.js, and Python.
+Emily is a Knowledge Operations Manager, actively job searching for Staff+ level positions at mission-driven companies. Her company was recently acquired by Bending Spoons, which has a history of performing mass layoffs. She has 10+ years of experience working in Customer Support organizations, specifically in maintaining support content for both internal and exteranl audiences, content taxonomy, 
 
 ### Core Values
-Derek values meaningful work, service, connection, excitement, and integrity above all else.
-
-### Founder Work
-Derek is the Founder of LookOver LLC, building a React Native powersports maintenance app that integrates OpenAI APIs and RevenueCat for subscriptions. This app serves as both a business venture and a technical showcase of his full-stack capabilities.
+Derek values competence, autonomy, cooperation, honesty, and flexibility above all else.
 
 ### Work History
-- Works remotely since 2021
-- Experience across diverse industries:
-  - Government contracting (General Indemnity Group)
-  - AdTech (Pathlabs, managing $200M+ ad spend)
-  - Embedded systems (Technologic Systems)
-  - Enterprise software (Oracle)
+- Had a hybrid working arrangement from 2016-2020. Works remotely since 2020. 
+- Started in Customer Support at Livestream in 2013. Moved to a product specialist role, responsible for maintaining help center, user manual, and training new employees on all Livestream software and hardware products.
+- 
 
 ### Personal Context
-Derek is a father with children including one with special needs, which influences his work-life balance priorities and values around authentic, supportive workplace cultures.
+Emily is a wife and a mother of a toddler girl, which influences her work-life balance priorities and values around authentic, supportive workplace cultures. Emily lives in Suffolk County, Long Island, which would make a daily commute New York City difficult and costly. 
 
 ### Job Search Focus
-Companies with strong missions align with his values:
-- Civic tech
-- Education technology
-- Sustainability
-- Healthcare
-- Outdoor recreation
+A remote position is preferred, but a hybrid role in New York City would be acceptable if the salary is right. Alternatively, on-site positions located on Long Island can be considered.
 
-Personal connections to these domains include family circumstances (Medicaid services), teacher friends sharing classroom challenges, and his outdoor lifestyle in Montana's mountains.
+Companies with strong missions that align with her values:
+- B2B SaaS
+- Video tools and technology
+- Education technology
+- News and media outlets
 
 ## Current State
 

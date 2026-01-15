@@ -2,6 +2,68 @@
 
 A professional resume and cover letter generation system using Markdown and modern CSS styling. Create beautiful, ATS-friendly PDFs optimized for software engineering positions.
 
+## AI-Assisted Resume Building
+
+This project includes configuration files for AI assistants to help generate consistent, high-quality resumes and cover letters. Two key files power this:
+
+- **CLAUDE.md** - Rules and instructions for how to write resumes
+- **MEMORY.md** - Context and background information about the person
+
+### Integrating with Claude Code (CLI)
+
+Claude Code automatically reads `CLAUDE.md` files in your project directory. Simply run `claude` in this directory and the rules will be applied.
+
+### Integrating with Claude.ai (Web)
+
+1. Start a new conversation or use a Project
+2. Copy the contents of `CLAUDE.md` and `MEMORY.md` into the system prompt or project knowledge
+3. Or paste both files at the start of your conversation with a prompt like:
+
+```
+Here are my resume writing rules and background. Please use these for all resume and cover letter generation:
+
+[Paste CLAUDE.md contents]
+
+[Paste MEMORY.md contents]
+```
+
+### Integrating with ChatGPT
+
+**Option 1: Custom GPT**
+1. Create a new Custom GPT at chat.openai.com/gpts/editor
+2. In the "Instructions" field, paste the contents of `CLAUDE.md`
+3. Upload `MEMORY.md` as a knowledge file
+4. Save and use your custom GPT for resume generation
+
+**Option 2: Per-Conversation**
+1. Start a new conversation
+2. Paste both files at the beginning:
+
+```
+I'm going to share my resume writing rules and background information. Please follow these guidelines for all resume and cover letter work in this conversation.
+
+RULES:
+[Paste CLAUDE.md contents]
+
+MY BACKGROUND:
+[Paste MEMORY.md contents]
+```
+
+### Integrating with Other AI Tools
+
+Most AI assistants support custom instructions. The general pattern is:
+
+1. **System prompt / Instructions**: Use `CLAUDE.md` contents to define how the AI should write
+2. **Context / Knowledge**: Use `MEMORY.md` contents to provide background information
+3. **Keep files updated**: As your experience grows, update `MEMORY.md` to keep AI-generated content accurate
+
+### Customizing for Your Own Use
+
+1. Fork this repository
+2. Replace `MEMORY.md` with your own background, experience, and preferences
+3. Modify `CLAUDE.md` to match your resume style and formatting rules
+4. Use the master-resume.md as a template for your comprehensive experience
+
 ## Features
 
 ✨ **Professional Design**
@@ -72,6 +134,9 @@ My Background:
 ```
 .
 ├── README.md                          # This file
+├── CLAUDE.md                          # AI rules and resume writing instructions
+├── MEMORY.md                          # Background context for AI assistants
+├── master-resume.md                   # Comprehensive resume (source of truth)
 ├── md2pdf.sh                          # Conversion script
 ├── config.json                        # Resume styling config
 ├── cover-letter-config.json          # Cover letter styling config

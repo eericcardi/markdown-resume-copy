@@ -11,6 +11,45 @@ This project includes configuration files for AI assistants to help generate con
 - **CLAUDE.md** - Rules and instructions for how to write resumes
 - **MEMORY.md** - Context and background information about the person
 
+### Example Prompts
+
+Once your AI assistant has access to your rules and memory, generating a tailored resume is simple:
+
+```
+Tailor my resume to the [Job Title] position at [Company Name].
+
+[Paste the job description here - formatting doesn't matter]
+```
+
+The AI will use your master resume, project memory, and instructions to automatically select relevant skills and experiences that match the job description.
+
+For more control, add specific talking points:
+
+```
+Tailor my resume to the Staff Software Engineer position at Outdoor Tech Co.
+
+Things to highlight:
+- My experience building offline-first mobile applications
+- The React Native work I did with LookOver
+- I'm drawn to their mission of getting people outside
+- My AWS infrastructure experience, especially Lambda and ECS
+
+[Paste job description]
+```
+
+You can also request a cover letter in the same prompt:
+
+```
+Tailor my resume and write a cover letter for the Senior Backend Engineer role at HealthTech Inc.
+
+For the cover letter, mention:
+- My family's experience navigating healthcare systems
+- Why meaningful work matters to me
+- My track record with data pipeline reliability
+
+[Paste job description]
+```
+
 ### Integrating with Claude Code (CLI)
 
 Claude Code automatically reads `CLAUDE.md` files in your project directory. Simply run `claude` in this directory and the rules will be applied.

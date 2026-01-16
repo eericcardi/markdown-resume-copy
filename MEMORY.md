@@ -29,7 +29,7 @@ Companies with strong missions that align with her values:
 
 ## Current State
 
-**tktktkt fill in after BSP decision.**
+***tktktkt fill in after BSP decision.***
 
 At her most recent role at Vimeo, Emily has been leading a global team of four Knowledge Management Analysts. In recent years, they've been focusing on improving customer-facing self-service experience. They do this by:
 - Closely collaborating with product, engineering, marketing, and legal teams when releases are imminent, including architecting what that collaboration process looks like and continuously improving it in partnership with Program Management
